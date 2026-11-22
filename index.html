@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -34,10 +33,39 @@
             ramas, commits y Pull Requests.</p>
         </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes encontrar información de contacto en esta sección.</p>
-        </section>
+
+	<section id="contacto">
+    	    <h2>Contacto</h2>
+
+	    <p>Si deseas ponerte en contacto con nosotros, puedes utilizar el siguiente formulario.</p>
+
+	    <form action="#" method="post">
+
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+            </div>
+
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu correo" required>
+            </div>
+
+            <div>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Introduce el asunto" required>
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+
+    	    </form>
+	</section>
+
 
     </main>
 
